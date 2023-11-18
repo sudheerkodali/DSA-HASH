@@ -50,7 +50,7 @@ function getStudentGrade(name) {
 }
 
 function hash(name) {
-  // Implement a hash function here
+                         // Implement a hash function here
 }
 
 addStudent('Sudheer', 95);
