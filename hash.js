@@ -1,21 +1,26 @@
 # DSA-HASH
 Hash and its types in DSA
 
+
 # you use the key as a property name
 const obj = {
-  name: 'John Doe',
+  name: 'Sudheer Kodali',
   age: 30,
-  city: 'New York'
+  city: 'Bengalore'
 };
 console.log(obj.name);
 
+
+
 # key-value pairs, such as get, set, and delete
 const map = new Map();
-map.set('name', 'John Doe');
+map.set('name', 'Sudheer Kodali');
 map.set('age', 30);
-map.set('city', 'New York');
+map.set('city', 'Bengalore');
 
 console.log(map.get('name'));
+
+
 
 # hash table to store a list of student names and grades
 const students = {};
@@ -48,10 +53,10 @@ function hash(name) {
   // Implement a hash function here
 }
 
-addStudent('Alice', 95);
-addStudent('Bob', 80);
-addStudent('Charlie', 70);
+addStudent('Sudheer', 95);
+addStudent('Chowdari', 80);
+addStudent('Kodali', 70);
 
-console.log(getStudentGrade('Alice')); 
-console.log(getStudentGrade('Bob')); 
-console.log(getStudentGrade('Charlie'));
+console.log(getStudentGrade('Sudheer')); 
+console.log(getStudentGrade('Chowdari')); 
+console.log(getStudentGrade('Kodali'));
